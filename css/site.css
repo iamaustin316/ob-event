@@ -225,7 +225,6 @@ body {
     color: #975a12;
     text-align: center;
     line-height: 1.6;
-    font-weight: 300;
 }
 
 
@@ -698,6 +697,7 @@ body {
     .info-left p {
         font-size: 14px;
         padding: 0 16px;
+        font-weight: 500;
     }
     .info-right p {
         font-size: 14px;
