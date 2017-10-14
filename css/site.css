@@ -8,7 +8,7 @@ html {
 body {
     width: 100%;
     background-image: url("https://obcdn4.obdesign.com.tw/images/wear-your-dreams/bg.jpg");
-    font-family: "Noto Sans TC", "WenQuanYi Zen Hei", "LiHei Pro", "Microsoft JhengHei", sans-serif;
+    font-family: Arial, "Noto Sans TC", "WenQuanYi Zen Hei", "LiHei Pro", "Microsoft JhengHei", sans-serif;
 }
 
 .wrap {
