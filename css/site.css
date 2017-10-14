@@ -1,5 +1,6 @@
 ﻿/*================basic-layout================*/
 
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 html {
     width: 100%;
 }
@@ -7,7 +8,7 @@ html {
 body {
     width: 100%;
     background-image: url("https://obcdn4.obdesign.com.tw/images/wear-your-dreams/bg.jpg");
-    font-family: '微軟正黑體', '新細明體', 'sans-serif', 'Noto Sans TC';
+    font-family: "Noto Sans TC", "WenQuanYi Zen Hei", "LiHei Pro", "Microsoft JhengHei", sans-serif;
 }
 
 .wrap {
@@ -146,7 +147,6 @@ body {
 
 .footer {
     text-align: center;
-    font-family: '微軟正黑體', '新細明體', 'sans-serif', 'Noto Sans TC';
     font-size: 10px;
     line-height: 26px;
     color: #999999;
@@ -225,7 +225,7 @@ body {
     color: #975a12;
     text-align: center;
     line-height: 1.6;
-    font-weight: bold;
+    font-weight: 300;
 }
 
 
@@ -427,7 +427,6 @@ body {
 }
 
 .popup-oldmen p {
-    font-family: '微軟正黑體', '新細明體', 'sans-serif', 'Noto Sans TC';
     font-size: 20px;
     line-height: 1.7;
     color: #717171;
@@ -627,7 +626,6 @@ body {
 }
 
 .popup-oldmen p {
-    font-family: Lato, 微軟正黑體, 新細明體, sans-serif;
     font-size: 16px;
     line-height: 1.7;
     color: #717171;
