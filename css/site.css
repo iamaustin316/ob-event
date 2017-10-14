@@ -1,0 +1,867 @@
+﻿/*================basic-layout================*/
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    background-image: url("https://obcdn4.obdesign.com.tw/images/wear-your-dreams/bg.jpg");
+    font-family: '微軟正黑體', '新細明體', 'sans-serif', 'Noto Sans TC';
+}
+
+.wrap {
+    width: 100%;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+/*================basic-layout================*/
+
+
+/*================top-bar================*/
+
+.top-bar {
+    background-color: #000000;
+    height: 78px;
+}
+
+.logo {
+    width: auto;
+    height: 78px;
+    margin: 0;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+
+/*================top-bar================*/
+
+
+/*================header================*/
+
+.header {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+
+/*================header================*/
+
+
+/*================nav================*/
+
+.nav {
+    height: 100px;
+    margin-bottom: 30px;
+    box-shadow: 0 12px 4px 0px rgba(56, 55, 56, 0.15);
+    background: #95b21f url("https://obcdn4.obdesign.com.tw/images/wear-your-dreams/nav-bg.jpg") repeat-x center top;
+}
+
+.nav ul {
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0 24px;
+    position: relative;
+    border-right: solid 2px #d58d37;
+}
+
+
+/*--中間區隔線--*/
+
+.nav li:last-child {
+    border-right: 0;
+}
+
+
+/*--中間區隔線--*/
+
+.nav li a {
+    display: block;
+}
+
+.nav li img {
+    display: block;
+    margin: 0;
+    opacity: 0.7;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/*--按鈕小動態--*/
+
+.nav li a:hover img {
+    opacity: 1;
+}
+
+.nav li a.active {
+    pointer-events: none;
+}
+
+.nav li a.active img {
+    opacity: 1;
+}
+
+
+/*--按鈕小動態--*/
+
+
+/*================nav================*/
+
+
+/*░░░░░░░活動首頁░░░░░░░*/
+
+.content {
+    margin: 0 auto;
+}
+
+.footer-bar {
+    background-color: #000000;
+    height: 50px;
+}
+
+.footer {
+    text-align: center;
+    font-family: '微軟正黑體', '新細明體', 'sans-serif', 'Noto Sans TC';
+    font-size: 10px;
+    line-height: 26px;
+    color: #999999;
+}
+
+
+/*================content-info================*/
+
+.content-info-bg {
+    background-image: url(https://obcdn4.obdesign.com.tw/images/wear-your-dreams/content-bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.content-info {
+    background-image: url(https://obcdn4.obdesign.com.tw/images/wear-your-dreams/content-bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    margin-bottom: 80px;
+    min-height: 460px;
+}
+
+.content-info h2 {
+    font-size: 30px;
+    line-height: 1.6;
+    color: #bf4c00;
+}
+
+.content-ob {
+    display: block;
+    margin: 0 auto;
+}
+
+.content-ob img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.content-npo {
+    display: block;
+    margin: 0 auto;
+}
+
+.content-npo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/*====左邊ＯＢ區塊====*/
+
+.info-left {
+    box-sizing: border-box;
+    width: 45%;
+    float: left;
+    padding: 20px;
+    font-size: 15px;
+    vertical-align: middle;
+    position: relative;
+    height: 350px;
+}
+
+.info-left p,
+.info-right p {
+    display: block;
+    font-size: 20px;
+    color: #975a12;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+
+/*====右邊ＮＰＯ區塊====*/
+
+.info-right {
+    box-sizing: border-box;
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+    font-size: 15px;
+    vertical-align: middle;
+    height: 350px;
+}
+
+.content-love {
+    width: 80px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+    margin: 0 10px;
+    margin-top: 140px;
+}
+
+
+/*================content-info================*/
+
+
+/*================buy================*/
+
+.buy {
+    padding: 50px 20px;
+    border-top: solid 8px #ffb45b;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.buy-heading {
+    position: absolute;
+    top: -35px;
+    left: 20px;
+}
+
+.buy-banner {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*================support================*/
+
+.support {
+    padding: 50px 20px;
+    border-top: solid 8px #ffb45b;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.support-heading {
+    position: absolute;
+    top: -37px;
+    left: 20px;
+}
+
+.support-text {
+    font-size: 25px;
+    line-height: 1.6;
+    color: #81991f;
+}
+
+.support-content {
+    padding: 0 20px;
+}
+
+.support-npo {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 390px;
+}
+
+.support-list {
+    width: 100%;
+    overflow: hidden;
+}
+
+.support-list a {
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    float: left;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.support-list img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+
+/*================support================*/
+
+
+/*░░░░░░░活動首頁░░░░░░░*/
+
+
+/*░░░░░░░歷年公益░░░░░░░*/
+
+.course {
+    margin-top: 80px;
+    padding: 40px 20px;
+    border-top: solid 8px #ffb45b;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.course-content {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.course-content img {
+    display: block;
+    float: left;
+    padding-right: 20px;
+    clear: both;
+}
+
+.course-heading {
+    position: absolute;
+    top: -37px;
+    left: 20px;
+}
+
+.course-text h1 {
+    font-size: 28px;
+    margin: 2px auto;
+    color: #ff9e2b;
+}
+
+.course-content-text {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #717171;
+    margin-bottom: 60px;
+}
+
+.course-text {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #717171;
+}
+
+
+/*░░░░░░░歷年公益░░░░░░░*/
+
+
+/*░░░░░░░實體活動░░░░░░░*/
+
+.event {
+    margin-top: 80px;
+    padding: 40px 20px;
+    border-top: solid 4px #ffb45b;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.event-heading {
+    position: absolute;
+    top: -37px;
+    left: 20px;
+}
+
+.popup-oldmen-img {
+    width: 100%;
+}
+
+.white-popup-block {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative;
+    border-radius: 6px;
+}
+
+.popup-oldmen img {
+    width: 100%;
+}
+
+.popup-oldmen h1 {
+    color: #ff5f00;
+}
+
+.popup-oldmen p {
+    font-family: '微軟正黑體', '新細明體', 'sans-serif', 'Noto Sans TC';
+    font-size: 20px;
+    line-height: 1.7;
+    color: #717171;
+}
+
+.popup-modal {
+    display: block;
+    color: #ff5f00;
+    margin-bottom: 10px;
+}
+
+
+/* Go Top 按鈕 */
+
+.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5;
+}
+
+
+/*░░░░░░░實體活動░░░░░░░*/
+
+
+/*================rwd================*/
+
+
+/*================rwd================*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .buy,
+    .support,
+    .event,
+    .course {
+        border-top: solid 4px #ffb45b;
+    }
+    .buy-heading,
+    .event-heading,
+    .support-heading,
+    .course-heading {
+        width: 200px;
+        top: -21px;
+    }
+    .container {
+        width: auto;
+        padding: 0 10px;
+    }
+    .event,
+    .course {
+        margin-top: 40px;
+    }
+    .top-bar {
+        height: 30px;
+    }
+    .logo {
+        width: 120px;
+        height: 50px;
+    }
+    .nav {
+        height: 80px;
+    }
+    .nav ul {
+        padding-top: 14px;
+    }
+    .nav li {
+        padding: 0;
+        width: 50%;
+        text-align: center;
+        border-right: 0;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .nav li img {
+        height: 18px;
+        margin: 0 auto;
+    }
+    .info-left p,
+    .info-right p,
+    .course-text {
+        font-size: 16px;
+        color: #747474;
+        text-align: center;
+        line-height: 1.6;
+        padding: 0 10px 0 10px;
+    }
+    .buy {
+        margin-bottom: 40px;
+    }
+    .buy-banner {
+        display: block;
+        margin: 0 auto;
+        width: 380px;
+    }
+    .content-ob {
+        width: 230px;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        margin: 0 auto;
+    }
+    .info-left {
+        width: 100%;
+    }
+    .content-npo {
+        width: 260px;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        margin: 0 auto;
+    }
+    .info-right {
+        width: 100%;
+    }
+    .content-love {
+        padding-top: 0;
+        width: 70px;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    .info-left p,
+    .info-right p,
+    .buy-text {
+        font-size: 16px;
+    }
+    .info-left,
+    .info-right {
+        height: auto;
+    }
+    .support-title {
+        width: 280px;
+    }
+    .support-npo {
+        position: relative;
+        width: 300px;
+        top: 0;
+        margin: 0 auto;
+        right: 0;
+        display: block;
+    }
+    .buy-content {
+        width: 100%;
+    }
+    .support-list a {
+        width: 100%;
+        float: none;
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+    .support {
+        margin-bottom: 50px;
+    }
+    .support-text {
+        text-align: center;
+    }
+    .course-content:last-child {
+        padding-bottom: 0;
+    }
+    .course-content img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+    .course-content-text {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #717171;
+        margin-bottom: 60px;
+    }
+    .course-text h1,
+    .popup-oldmen h1 {
+        font-size: 18px;
+    }
+    .course-content img {
+        width: 90%;
+    }
+    .content-info {
+        /* background-image: url(../images/content-bg-m.png); */
+        background-image: none;
+        background-color: #ffe7cb;
+        border-radius: 20px;
+        min-height: 320px;
+        padding-top: 30px;
+    }
+    .content-info h2 {
+        font-size: 22px;
+    }
+}
+
+.popup-oldmen p {
+    font-family: Lato, 微軟正黑體, 新細明體, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #717171;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .container {
+        width: 460px;
+    }
+    .top-bar {
+        height: 50px;
+    }
+    .logo {
+        width: 120px;
+        height: 50px;
+    }
+    .nav {
+        height: 80px;
+    }
+    .nav ul {
+        padding-top: 15px;
+    }
+    .nav li {
+        padding: 0;
+        width: 50%;
+        text-align: center;
+        border-right: 0;
+        margin-bottom: 15px;
+    }
+    .nav li img {
+        height: 20px;
+        margin: 0 auto;
+    }
+    .content-ob {
+        width: 260px;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        margin: 0 auto;
+    }
+    .info-left {
+        width: 100%;
+    }
+    .content-npo {
+        width: 300px;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        margin: 0 auto;
+    }
+    .info-right {
+        width: 100%;
+    }
+    .content-love {
+        padding-top: 0;
+        width: 70px;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    .info-left {
+        height: auto;
+    }
+    .info-right {
+        height: auto;
+    }
+    .info-left p {
+        font-size: 14px;
+        padding: 0 16px;
+    }
+    .info-right p {
+        font-size: 14px;
+        padding: 0 16px;
+    }
+    .buy-girl {
+        width: 370px;
+        right: -20px;
+        bottom: -51px;
+    }
+    .buy-text {
+        font-size: 16px;
+    }
+    .support-title {
+        width: 360px;
+    }
+    .support-npo {
+        position: relative;
+        width: 200px;
+        top: 0;
+        margin: 0 auto;
+        right: 0;
+        display: block;
+    }
+    .buy-content {
+        width: 100%;
+    }
+    .support-list a {
+        width: 100%;
+        float: none;
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+    .course-content:last-child {
+        padding-bottom: 0;
+    }
+    .course-content img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+    .course-text {
+        font-size: 20px;
+        line-height: 1.6;
+        color: #717171;
+        zoom: 1;
+        clear: both;
+    }
+    .content-info {
+        /* background-image: url(../images/content-bg-m.png); */
+        background-image: none;
+        background-color: #ffe7cb;
+        border-radius: 30px;
+        min-height: 320px;
+        padding-top: 30px;
+    }
+    .content-info h2 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+    .container {
+        width: 740px;
+    }
+    .nav {
+        height: 80px;
+    }
+    .nav li {
+        padding: 0 14px;
+    }
+    .nav li img {
+        height: 20px;
+    }
+    .buy-banner {
+        width: 100%;
+    }
+    .content-ob {
+        width: 210px;
+        height: auto;
+    }
+    .content-npo {
+        width: 230px;
+        height: auto;
+    }
+    .content-love {
+        width: 6%;
+    }
+    .info-left {
+        height: auto;
+    }
+    .info-right {
+        height: auto;
+    }
+    .info-left p {
+        font-size: 14px;
+    }
+    .info-right p {
+        font-size: 14px;
+    }
+    .buy-text {
+        font-size: 16px;
+    }
+    .support-title {
+        width: 360px;
+    }
+    .support-npo {
+        width: 300px;
+    }
+    .course-text {
+        font-size: 20px;
+        line-height: 1.6;
+        color: #717171;
+        overflow: hidden;
+    }
+    .content-info {
+        min-height: 320px;
+        padding-top: 30px;
+    }
+    .content-info h2 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+    .container {
+        width: 920px;
+    }
+    .nav {
+        height: 80px;
+    }
+    .nav li {
+        padding: 0 14px;
+    }
+    .nav li img {
+        height: 20px;
+    }
+    .buy-girl {
+        width: 470px;
+        right: -20px;
+    }
+    .content-ob {
+        width: 260px;
+        height: auto;
+    }
+    .content-npo {
+        width: 300px;
+        height: auto;
+    }
+    .content-info {
+        min-height: 380px;
+    }
+    .content-love {
+        width: 60px;
+        margin-top: 70px;
+    }
+    .content-info h2 {
+        font-size: 24px;
+    }
+    .info-left p,
+    .info-right p {
+        font-size: 16px;
+    }
+}
