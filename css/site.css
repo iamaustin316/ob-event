@@ -507,6 +507,10 @@ body {
         height: 18px;
         margin: 0 auto;
     }
+    .info-left,
+    .info-right {
+        padding: 0px;
+    }
     .info-left p,
     .info-right p,
     .course-text {
