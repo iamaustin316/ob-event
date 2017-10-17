@@ -264,7 +264,7 @@ body {
 
 .buy-heading {
     position: absolute;
-    top: -35px;
+    top: -37px;
     left: 20px;
 }
 
@@ -411,8 +411,7 @@ body {
 /*░░░░░░░歷年公益░░░░░░░*/
 
 .course {
-    margin-top: 80px;
-    padding: 40px 20px;
+    padding: 50px 20px;
     border-top: solid 8px #ffb45b;
     position: relative;
     margin-bottom: 100px;
@@ -463,8 +462,7 @@ body {
 /*░░░░░░░實體活動░░░░░░░*/
 
 .event {
-    margin-top: 80px;
-    padding: 40px 20px;
+    padding: 50px 20px;
     border-top: solid 8px #ffb45b;
     position: relative;
     margin-bottom: 100px;
