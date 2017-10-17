@@ -465,7 +465,7 @@ body {
 .event {
     margin-top: 80px;
     padding: 40px 20px;
-    border-top: solid 4px #ffb45b;
+    border-top: solid 8px #ffb45b;
     position: relative;
     margin-bottom: 100px;
 }
