@@ -480,6 +480,10 @@ body {
     margin-bottom: 60px;
 }
 
+.course-content-text p {
+    margin: 0;
+}
+
 .course-text {
     font-size: 20px;
     line-height: 1.6;
@@ -570,7 +574,7 @@ body {
         border-top: solid 4px #ffb45b;
         padding-left: 0;
         padding-right: 0;
-        padding-top: 20px;
+        padding-top: 30px;
         padding-bottom: 20px;
     }
     .buy-heading,
@@ -578,11 +582,11 @@ body {
     .support-heading,
     .course-heading {
         width: 200px;
-        top: -21px;
+        top: -19px;
     }
     .container {
         width: auto;
-        padding: 0 10px;
+        padding: 0 16px;
     }
     .event,
     .course {
