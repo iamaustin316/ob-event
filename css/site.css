@@ -286,6 +286,7 @@ body {
     max-width: 100%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .buy-btn p {
@@ -295,7 +296,9 @@ body {
 }
 
 .buy-btn-a {
+    width: 100%;
     display: block;
+    margin-bottom: 20px;
 }
 
 .buy-btn-a img {
@@ -306,6 +309,7 @@ body {
 }
 
 .buy-btn-b {
+    width: 100%;
     display: block;
 }
 
@@ -542,6 +546,8 @@ body {
         border-top: solid 4px #ffb45b;
         padding-left: 0;
         padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .buy-heading,
     .event-heading,
