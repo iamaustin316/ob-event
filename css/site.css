@@ -646,6 +646,7 @@ body {
     }
     .info-left {
         width: 100%;
+        padding-bottom: 0;
     }
     .content-npo {
         width: 260px;
@@ -663,7 +664,7 @@ body {
         padding-top: 0;
         width: 70px;
         display: block;
-        margin: 0 auto 20px auto;
+        margin: 0 auto;
     }
     .info-left p,
     .info-right p,
@@ -961,6 +962,7 @@ body {
     .content-info {
         min-height: 320px;
         padding-top: 30px;
+        margin-bottom: 30px;
     }
     .content-info h2 {
         font-size: 18px;
