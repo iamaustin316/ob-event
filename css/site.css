@@ -174,7 +174,7 @@ body {
     padding-top: 50px;
     position: relative;
     margin-bottom: 80px;
-    min-height: 460px;
+    min-height: 490px;
 }
 
 .content-info h2 {
@@ -318,6 +318,30 @@ body {
     max-width: 100%;
     height: auto;
     margin: 0;
+}
+
+.buy-btn-2 {
+    width: 100%;
+    display: block;
+}
+
+.buy-btn-2 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.coo-buy-btn {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.coo-buy-btn img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
 }
 
 
@@ -573,6 +597,7 @@ body {
     }
     .nav {
         height: 80px;
+        margin-bottom: 30px;
     }
     .nav ul {
         padding-top: 14px;
@@ -701,7 +726,8 @@ body {
         background-color: #ffe7cb;
         border-radius: 20px;
         min-height: 320px;
-        padding-top: 30px;
+        padding-top: 10px;
+        margin-bottom: 20px;
     }
     .content-info h2 {
         font-size: 22px;
@@ -858,6 +884,7 @@ body {
         border-radius: 30px;
         min-height: 320px;
         padding-top: 30px;
+        margin-bottom: 20px;
     }
     .content-info h2 {
         font-size: 18px;
@@ -1000,6 +1027,7 @@ body {
     }
     .content-info {
         min-height: 380px;
+        margin-bottom: 20px;
     }
     .content-love {
         width: 60px;
