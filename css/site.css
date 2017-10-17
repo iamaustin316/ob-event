@@ -268,16 +268,49 @@ body {
     left: 20px;
 }
 
-.buy-btn {
-	max-width:100%;
-	margin:0 auto;
-	display: flex;
+.buy-top-banner {
+    display: block;
 }
 
-.buy-btn p{
-	max-width:100%;
-	margin:0 auto;
-	display: inline-block;
+.buy-top-banner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+.buy-btn {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.buy-btn p {
+    max-width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.buy-btn-a {
+    display: block;
+}
+
+.buy-btn-a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.buy-btn-b {
+    display: block;
+}
+
+.buy-btn-b img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
 }
 
 
@@ -312,56 +345,62 @@ body {
     top: 10px;
     width: 390px;
 }
-	.shop{
-    max-width:100%;
-    margin:0 auto;
-	}  
-	
-  .shop-box-all{
-	width: 1100px;
-	display:inline-block;
-    text-align:center;
-    margin:0 auto;
-    font-size:0;
-	margin: 0;
-	padding: 0;
-	}
 
-    .shop-box img{
-	display:inline-block;
-	width: 90%;
-    margin: -10px;
-    padding: 0;
-	padding-top:15px;
+.shop {
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-	.shop-box {
-	display:inline-block;
-	margin: 0 auto; 
-	text-align: center;
-	margin-bottom: 20px;
-	margin-right: 5px;
-	background-color: #eee;
-	}
-	.shop-box a{
-		text-decoration: none;
-		
-	}
-	.shop-box h2 {
-    font-size:20px;
-	color: #626262;
-	text-align: center;
+.shop-box-all {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shop-box img {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 5px 0;
+}
+
+.shop-box {
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.shop-box a {
+    text-decoration: none;
+    display: block;
+}
+
+.shop-box h2 {
+    font-size: 20px;
+    color: #626262;
+    text-align: center;
     padding-top: 10px;
     margin: 0;
-	}
-	
-	.shop-box p {
-    font-size:30px;
-	color: #d36446;
+}
+
+.shop-box p {
+    font-size: 30px;
+    color: #d36446;
     text-align: center;
     padding: 5px;
     margin: 0;
-	}
+}
+
 
 /*================support================*/
 
@@ -500,6 +539,8 @@ body {
     .event,
     .course {
         border-top: solid 4px #ffb45b;
+        padding-left: 0;
+        padding-right: 0;
     }
     .buy-heading,
     .event-heading,
@@ -557,7 +598,7 @@ body {
         display: block;
         margin: 0 auto;
         width: 380px;
-		margin-left: -18px;
+        margin-left: -18px;
     }
     .content-ob {
         width: 230px;
@@ -657,6 +698,15 @@ body {
     .content-info h2 {
         font-size: 22px;
     }
+    .shop-box h2 {
+        font-size: 16px;
+    }
+    .shop-box {
+        width: 48%;
+    }
+    .shop-box p {
+        font-size: 24px;
+    }
 }
 
 .popup-oldmen p {
@@ -665,25 +715,10 @@ body {
     color: #717171;
 }
 
- .shop-box-all{
-	width:100%;
-	display:inline-block;
-    text-align:center;
-    margin:0 auto;
-    font-size:0;	
-	}
-
-.
-
-
-.buy-btn {
-	max-width:none;
-	margin:0 auto;
-	display: block;
-}
-
-
 @media (min-width: 481px) and (max-width: 767px) {
+    .support-text {
+        text-align: center;
+    }
     .container {
         width: 460px;
     }
@@ -764,15 +799,14 @@ body {
     .buy-text {
         font-size: 16px;
     }
-	
-	.buy-banner {
-	 width: 400px;	
-	}
+    .buy-banner {
+        width: 400px;
+    }
     .buy-btn {
-    display: block;
-	text-align: center;
-	margin:0 auto;
-}
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
     .support-title {
         width: 360px;
     }
@@ -820,6 +854,12 @@ body {
     .content-info h2 {
         font-size: 18px;
     }
+    .shop-box {
+        width: 48%;
+    }
+    .shop-box h2 {
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
@@ -835,15 +875,13 @@ body {
     .nav li img {
         height: 20px;
     }
-	.buy-banner {
-	 width: 700px;	
-	}
+    .buy-banner {
+        width: 700px;
+    }
     .buy-btn {
-    display: block;
-	text-align: center;
-	margin:0 auto;
-}
-
+        text-align: center;
+        margin: 0 auto;
+    }
     .content-ob {
         width: 210px;
         height: auto;
@@ -889,45 +927,48 @@ body {
     .content-info h2 {
         font-size: 18px;
     }
-	
-	
-	.shop{
-    max-width:100%;
-    margin:0 auto;
-	}  
-	
-  .shop-box-all{
-	width:100%;
-	}
-
-    .shop-box img{
-	display:inline-block;
-	width: 100%;
-	padding-top:10px;
-}
-
-	.shop-box {
-	margin-right: 10px;
-	}
-	.shop-box a{
-	text-decoration: none;
-		
-	}
-	.shop-box h2 {
-    font-size:20px;
-	color: #626262;
-	text-align: center;
-    padding-top: 10px;
-    margin: 0;
-	}
-	
-	.shop-box p {
-    font-size:30px;
-	color: #d36446;
-    text-align: center;
-    padding: 5px;
-    margin: 0;
-	}
+    .shop {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .shop-box-all {
+        width: 100%;
+    }
+    .shop-box {
+        width: 31%;
+    }
+    .shop-box img {
+        display: inline-block;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .shop-box a {
+        text-decoration: none;
+    }
+    .shop-box h2 {
+        font-size: 18px;
+    }
+    .shop-box p {
+        font-size: 30px;
+        color: #d36446;
+        text-align: center;
+        padding: 5px;
+        margin: 0;
+    }
+    .buy-btn-a {
+        width: 57%;
+    }
+    .buy-btn-b {
+        width: 43%;
+    }
+    .buy-btn-a img {
+        max-width: inherit;
+        width: 100%;
+    }
+    .buy-btn-b img {
+        max-width: inherit;
+        width: 100%;
+    }
 }
 
 @media (min-width: 960px) and (max-width: 1200px) {
@@ -969,24 +1010,14 @@ body {
     .info-right p {
         font-size: 16px;
     }
-	
-	.buy {
-    padding: 50px 20px;
-    border-top: solid 8px #ffb45b;
-    position: relative;
-    margin-bottom: 50px;
-}
-
-.buy-heading {
-    position: absolute;
-    top: -35px;
-    left: 20px;
-}
-
-.buy-btn {
-	max-width:100%;
-	margin:0 auto;
-	display: flex;
-}
-
+    .buy-heading {
+        position: absolute;
+        top: -35px;
+        left: 20px;
+    }
+    .buy-btn {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
 }
