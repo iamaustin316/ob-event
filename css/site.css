@@ -8,7 +8,7 @@ html {
 body {
     width: 100%;
     background-image: url("https://obcdn4.obdesign.com.tw/images/wear-your-dreams/bg.jpg");
-    font-family: Arial, "Noto Sans TC", "WenQuanYi Zen Hei", "LiHei Pro", "Microsoft JhengHei", sans-serif;
+    font-family: Arial, "Noto Sans TC", "WenQuanYi Zen Hei", "LiHei Pro", "Microsoft JhengHei", sans-serif;
 }
 
 .wrap {
@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    width: 1100px;
+    width: 1180px;
     margin: 0 auto;
 }
 
@@ -70,7 +70,7 @@ body {
 
 .nav {
     height: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     box-shadow: 0 12px 4px 0px rgba(56, 55, 56, 0.15);
     background: #95b21f url("https://obcdn4.obdesign.com.tw/images/wear-your-dreams/nav-bg.jpg") repeat-x center top;
 }
@@ -268,10 +268,16 @@ body {
     left: 20px;
 }
 
-.buy-banner {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
+.buy-btn {
+	max-width:100%;
+	margin:0 auto;
+	display: flex;
+}
+
+.buy-btn p{
+	max-width:100%;
+	margin:0 auto;
+	display: inline-block;
 }
 
 
@@ -306,28 +312,56 @@ body {
     top: 10px;
     width: 390px;
 }
+	.shop{
+    max-width:100%;
+    margin:0 auto;
+	}  
+	
+  .shop-box-all{
+	width: 1100px;
+	display:inline-block;
+    text-align:center;
+    margin:0 auto;
+    font-size:0;
+	margin: 0;
+	padding: 0;
+	}
 
-.support-list {
-    width: 100%;
-    overflow: hidden;
+    .shop-box img{
+	display:inline-block;
+	width: 90%;
+    margin: -10px;
+    padding: 0;
+	padding-top:15px;
 }
 
-.support-list a {
-    box-sizing: border-box;
-    display: block;
-    width: 50%;
-    float: left;
-    padding: 0 20px;
-    margin-bottom: 40px;
-}
-
-.support-list img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+	.shop-box {
+	display:inline-block;
+	margin: 0 auto; 
+	text-align: center;
+	margin-bottom: 20px;
+	margin-right: 5px;
+	background-color: #eee;
+	}
+	.shop-box a{
+		text-decoration: none;
+		
+	}
+	.shop-box h2 {
+    font-size:20px;
+	color: #626262;
+	text-align: center;
+    padding-top: 10px;
     margin: 0;
-}
-
+	}
+	
+	.shop-box p {
+    font-size:30px;
+	color: #d36446;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+	}
 
 /*================support================*/
 
@@ -507,10 +541,6 @@ body {
         height: 18px;
         margin: 0 auto;
     }
-    .info-left,
-    .info-right {
-        padding: 0px;
-    }
     .info-left p,
     .info-right p,
     .course-text {
@@ -527,6 +557,7 @@ body {
         display: block;
         margin: 0 auto;
         width: 380px;
+		margin-left: -18px;
     }
     .content-ob {
         width: 230px;
@@ -554,7 +585,7 @@ body {
     }
     .content-love {
         padding-top: 0;
-        width: 50px;
+        width: 70px;
         display: block;
         margin: 0 auto 20px auto;
     }
@@ -633,6 +664,24 @@ body {
     line-height: 1.7;
     color: #717171;
 }
+
+ .shop-box-all{
+	width:100%;
+	display:inline-block;
+    text-align:center;
+    margin:0 auto;
+    font-size:0;	
+	}
+
+.
+
+
+.buy-btn {
+	max-width:none;
+	margin:0 auto;
+	display: block;
+}
+
 
 @media (min-width: 481px) and (max-width: 767px) {
     .container {
@@ -715,6 +764,15 @@ body {
     .buy-text {
         font-size: 16px;
     }
+	
+	.buy-banner {
+	 width: 400px;	
+	}
+    .buy-btn {
+    display: block;
+	text-align: center;
+	margin:0 auto;
+}
     .support-title {
         width: 360px;
     }
@@ -777,9 +835,15 @@ body {
     .nav li img {
         height: 20px;
     }
-    .buy-banner {
-        width: 100%;
-    }
+	.buy-banner {
+	 width: 700px;	
+	}
+    .buy-btn {
+    display: block;
+	text-align: center;
+	margin:0 auto;
+}
+
     .content-ob {
         width: 210px;
         height: auto;
@@ -825,6 +889,45 @@ body {
     .content-info h2 {
         font-size: 18px;
     }
+	
+	
+	.shop{
+    max-width:100%;
+    margin:0 auto;
+	}  
+	
+  .shop-box-all{
+	width:100%;
+	}
+
+    .shop-box img{
+	display:inline-block;
+	width: 100%;
+	padding-top:10px;
+}
+
+	.shop-box {
+	margin-right: 10px;
+	}
+	.shop-box a{
+	text-decoration: none;
+		
+	}
+	.shop-box h2 {
+    font-size:20px;
+	color: #626262;
+	text-align: center;
+    padding-top: 10px;
+    margin: 0;
+	}
+	
+	.shop-box p {
+    font-size:30px;
+	color: #d36446;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+	}
 }
 
 @media (min-width: 960px) and (max-width: 1200px) {
@@ -866,4 +969,24 @@ body {
     .info-right p {
         font-size: 16px;
     }
+	
+	.buy {
+    padding: 50px 20px;
+    border-top: solid 8px #ffb45b;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.buy-heading {
+    position: absolute;
+    top: -35px;
+    left: 20px;
+}
+
+.buy-btn {
+	max-width:100%;
+	margin:0 auto;
+	display: flex;
+}
+
 }
