@@ -630,12 +630,6 @@ body {
     .buy {
         margin-bottom: 40px;
     }
-    .buy-banner {
-        display: block;
-        margin: 0 auto;
-        width: 380px;
-        margin-left: -18px;
-    }
     .content-ob {
         width: 230px;
         height: auto;
@@ -838,9 +832,6 @@ body {
     .buy-text {
         font-size: 16px;
     }
-    .buy-banner {
-        width: 400px;
-    }
     .buy-btn {
         display: block;
         text-align: center;
@@ -914,9 +905,6 @@ body {
     }
     .nav li img {
         height: 20px;
-    }
-    .buy-banner {
-        width: 700px;
     }
     .buy-btn {
         text-align: center;
